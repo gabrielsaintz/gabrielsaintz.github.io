@@ -69,11 +69,11 @@ function projetos() {
   projetos.innerHTML += `
    <h2 class="redes">REDES</h2>
    <div class="social">
-      <a id="icon" href="https://www.instagram.com/gabrielsaintz/">
-         <img src="./imagens/Instagram.png" />
+      <a href="https://www.instagram.com/gabrielsaintz/">
+         <img id="icon" src="./imagens/Instagram.png" />
       </a>
-      <a id="icon" href="https://www.linkedin.com/in/gabriel-cezario-dos-santos-023452236/">
-         <img src="./imagens/Linkedin.png"
+      <a href="https://www.linkedin.com/in/gabriel-cezario-dos-santos-023452236/">
+         <img id="icon" src="./imagens/Linkedin.png"
       /></a>
    </div>
    `;
@@ -100,11 +100,11 @@ function sobre() {
    </p>
    <h2 class="redes">REDES</h2>
    <div class="social">
-      <a id="icon" href="https://www.instagram.com/gabrielsaintz/">
-         <img src="./imagens/Instagram.png" />
+      <a href="https://www.instagram.com/gabrielsaintz/">
+         <img id="icon" src="./imagens/Instagram.png" />
       </a>
-      <a id="icon" href="https://www.linkedin.com/in/gabriel-cezario-dos-santos-023452236/">
-         <img src="./imagens/Linkedin.png"
+      <a href="https://www.linkedin.com/in/gabriel-cezario-dos-santos-023452236/">
+         <img id="icon" src="./imagens/Linkedin.png"
       /></a>
    </div>
    `;
