@@ -6,7 +6,7 @@
 /* PADRÕES */
 
 body {
-  background-color: #090819;
+  background-image: url(./imagens/fundo.png);
   font-family: "Press Start 2P", cursive;
 
   margin: 10%;
@@ -123,8 +123,6 @@ p {
 
   display: flex;
   flex-wrap: nowrap;
-
-  background-color: #090819;
 }
 
 .sobremim {
