@@ -60,7 +60,7 @@ function projetos() {
   p.style.textShadow = "-1px 1px 0px rgb(29, 82, 246)";
 
   c.style.width = "calc(100% - 1vw)";
-  c.style.height = "calc(100px + 10vw)";
+  c.style.height = "calc(120px + 10vw)";
   c.style.margin = "1vw 0vw 0vw 0.8vw";
   c.style.border = "solid 1px #1354f9";
 
