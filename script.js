@@ -1,4 +1,4 @@
-var foto = document.querySelector(".fotoperfil");
+let foto = document.querySelector(".fotoperfil");
 foto.addEventListener("click", inicio);
 
 function inicio() {
