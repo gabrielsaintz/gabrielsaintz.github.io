@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #020213;
+   background-image: url(/img/fundo.png);
+   background-position: center;
+   background-repeat: repeat;
+
+   font-family: "Press Start 2P", cursive;
+   text-align: center;
+
+   padding: 10px;
+}
+
+h1 {
+   margin-top: 50px;
+   color: #f4f4f4;
+   text-shadow: -2px 2px 0px rgb(29, 82, 246);
+   font-size: 2.5rem;
+}
+
+h2 {
+   font-weight: 300;
+   color: #f4f4f4;
+   text-shadow: -2px 0px 0px #1d52f6;
+}
+
+h3 {
+   font-weight: 300;
+   color: #1354f9;
+   text-shadow: -2px 0px 0px #142c8d;
+}
+
+p {
+   margin: 20px 0px 20px 0px;
+   color: #1354f9;
+   text-shadow: -2px 0px 0px #142c8d;
+   font-size: 1.4rem;
+   font-weight: 300;
+   text-indent: 15px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.caixainfos {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+
+.caixa1 {
+   width: 1219px;
+   max-width: 1219px;
+   height: 700px;
+   max-height: 700px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+
+.fotoperfil {
+   width: 570px;
+   height: 570px;
+   margin-right: 30px;
+}
+
+.atributos {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.caixa2 {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+
+   text-align: center;
+
+   width: 1219px;
+   max-width: 1219px;
+   height: 750px;
+   max-height: 7500px;
+}
+
+.redessociais {
+   padding: 20px;
+   border: 1px solid #1354f9;
+   margin-top: 20px;
+}
+
+.projetos {
+   width: 1219px;
+   height: 630px;
+   margin-top: 30px;
+   padding: 20px;
+   border: 1px solid #1354f9;
+}
