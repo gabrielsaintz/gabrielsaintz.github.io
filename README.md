@@ -1,9 +1,9 @@
-# Gabriel Saintz apresentação
-<h2>Esse projeto foi criado usando apenas html e css.<h3/>
-  <p>A ideia desse projeto veio de um curso de desenvolvedor full stack javascript, o professor pediu para criarmos um portfólio de apresentação
-    usando apenas html e css<p/>
+# WEB Site de apresentação
+<h2>Web Site com HTML e CSS.</h2>
+<p> A ideia do projeto foi um exercicio proposto pelo <strong>Curso</strong>, onde tinhamos que criar um site/portifolio de apresentação pessoal e profissional, usando apenas HTML e CSS. O principal objetivo era colocar o HTML e CSS ensinado no curso em pratica. </p>
+
   
-  <h2>links<h3/>
+  <h2>links</h2>
   portfólio: https://gabrielsaintz.github.io/ <br/>
   curso: http://www.fullstackjavascript.com.br/#
 
