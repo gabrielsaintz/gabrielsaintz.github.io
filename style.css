@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	transition: all 300ms;
 }
 
 :root {
@@ -52,7 +53,6 @@ body {
 	font-size: 2.3rem;
 	color: #3b3bcd;
 	z-index: 2;
-	transition: all 300ms;
 }
 
 .sidebarIcon:hover {
@@ -114,7 +114,7 @@ span {
 }
 
 .photo {
-	height: 40%;
+	height: 30rem;
 	border-radius: 100%;
 	margin: 1rem;
 	border-bottom: solid 5px #3b3bcd;
@@ -139,7 +139,7 @@ span {
 #about {
 	width: 100%;
 
-	padding: 10rem 20% 5rem 20%;
+	padding: 10rem 10% 5rem 10%;
 
 	display: flex;
 	flex-direction: column;
@@ -298,7 +298,7 @@ span {
 #projects {
 	width: 100%;
 
-	padding: 10rem 20% 5rem 20%;
+	padding: 10rem 10% 5rem 10%;
 
 	display: flex;
 	align-items: center;
@@ -309,8 +309,7 @@ span {
 
 #exercises {
 	width: 100%;
-
-	padding: 10rem 20% 5rem 20%;
+	padding: 10rem 10% 5rem 10%;
 
 	display: flex;
 	align-items: center;
@@ -326,16 +325,22 @@ span {
 }
 
 .exercises {
+	width: 100%;
+
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
 }
 
 .exercise {
 	border-radius: 2rem;
-	margin: 2rem;
 	padding: 2rem;
 
 	display: flex;
 	align-items: center;
+
 	flex-direction: column;
 	gap: 1rem;
 
@@ -343,30 +348,15 @@ span {
 }
 
 .loanGeneratorImg {
-	height: 40rem;
+	height: 30rem;
 }
 
-@media (max-width: 1920px) {
-	#about {
-		padding: 10rem 15% 5rem 15%;
-	}
-
-	#projects {
-		padding: 10rem 15% 5rem 15%;
-	}
-}
-
-@media (max-width: 1280px) {
-	#about {
-		padding: 10rem 10% 5rem 10%;
-	}
-	#projects {
-		padding: 10rem 10% 5rem 10%;
-	}
-
-	.loanGeneratorImg {
-		height: 20rem;
-	}
+footer {
+	font-size: 1.2rem;
+	font-style: italic;
+	font-weight: 200;
+	background-color: #161632;
+	text-align: center;
 }
 
 @media (max-width: 700px) {
