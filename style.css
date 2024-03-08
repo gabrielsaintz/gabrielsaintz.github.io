@@ -14,12 +14,7 @@
   --background-color: #161616;
   --background-gradient: linear-gradient(180deg, #151515 0%, #181818 100%);
 
-  --sidebar-gradient: linear-gradient(
-    180deg,
-    rgba(11, 11, 18, 1) 0%,
-    rgba(13, 13, 33, 1) 74%,
-    rgba(11, 11, 18, 1) 100%
-  );
+  --sidebar-gradient: linear-gradient(180deg, rgba(11, 11, 18, 1) 0%, rgba(13, 13, 33, 1) 74%, rgba(11, 11, 18, 1) 100%);
   --sidebar-iconhover: rgba(13, 13, 33, 1);
 
   --text-color: #e3e3e3;
@@ -186,6 +181,9 @@ span {
   line-height: 4rem;
 
   color: var(--background-color);
+}
+.cv-button:hover {
+  filter: brightness(1.1);
 }
 
 @media (max-width: 1920px) {
